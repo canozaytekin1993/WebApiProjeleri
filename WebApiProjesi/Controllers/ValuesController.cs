@@ -6,31 +6,43 @@ namespace WebApiProjesi.Controllers
     //[Authorize]
     public class ValuesController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        static List<string> degerler = new List<string>()
         {
-            return new string[] { "value1", "value2" };
+            "value0","value1","value2"
+        };
+        // GET api/values
+        [HttpGet]
+        public IEnumerable<string> Degerler()
+        {
+            return degerler;
         }
 
         // GET api/values/5
-        public string Get(int id)
+        [HttpGet]
+        public string DegerGetir(int id)
         {
-            return "value";
+            return degerler[id];
         }
 
         // POST api/values
-        public void Post([FromBody]string value)
+        [HttpPost]
+        public void DegerEkle([FromBody]string value)
         {
+            degerler.Add(value);
         }
 
         // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        public void DegerGuncelle(int id, [FromBody]string value)
         {
+            degerler[id] = value;
         }
 
         // DELETE api/values/5
-        public void Delete(int id)
+        [HttpDelete]
+        public void DegerSil(int id)
         {
+            degerler.RemoveAt(id);
         }
     }
 }
