@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notlar", "Notlar", "{3FDE7B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiProjesi", "WebApiProjesi\WebApiProjesi.csproj", "{5C6E6A2D-411F-449C-8776-D86D15DAB04C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEğitimi.Routing", "WebApiEğitimi.Routing\WebApiEğitimi.Routing.csproj", "{175E1650-8F3E-489E-99CB-DC8274DD47BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{5C6E6A2D-411F-449C-8776-D86D15DAB04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6E6A2D-411F-449C-8776-D86D15DAB04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6E6A2D-411F-449C-8776-D86D15DAB04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5C6E6A2D-411F-449C-8776-D86D15DAB04C} = {3FDE7BA7-0DCA-4AF9-82E3-0E6BCA50CB12}
+		{175E1650-8F3E-489E-99CB-DC8274DD47BB} = {3FDE7BA7-0DCA-4AF9-82E3-0E6BCA50CB12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF2743DF-F605-4931-9CDA-8EF2C357A44F}
