@@ -6,10 +6,11 @@ namespace WebApiProjesi.Controllers
     //[Authorize]
     public class ValuesController : ApiController
     {
-        static List<string> degerler = new List<string>()
+        private static List<string> degerler = new List<string>()
         {
             "value0","value1","value2"
         };
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Degerler()

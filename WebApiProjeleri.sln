@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiProjesi", "WebApiProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEğitimi.Routing", "WebApiEğitimi.Routing\WebApiEğitimi.Routing.csproj", "{175E1650-8F3E-489E-99CB-DC8274DD47BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEğitimi.Crud", "WebApiEğitimi.Crud\WebApiEğitimi.Crud.csproj", "{7BB4E818-146B-47C3-96E0-2AEE6D687D67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{175E1650-8F3E-489E-99CB-DC8274DD47BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB4E818-146B-47C3-96E0-2AEE6D687D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB4E818-146B-47C3-96E0-2AEE6D687D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB4E818-146B-47C3-96E0-2AEE6D687D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB4E818-146B-47C3-96E0-2AEE6D687D67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5C6E6A2D-411F-449C-8776-D86D15DAB04C} = {3FDE7BA7-0DCA-4AF9-82E3-0E6BCA50CB12}
 		{175E1650-8F3E-489E-99CB-DC8274DD47BB} = {3FDE7BA7-0DCA-4AF9-82E3-0E6BCA50CB12}
+		{7BB4E818-146B-47C3-96E0-2AEE6D687D67} = {3FDE7BA7-0DCA-4AF9-82E3-0E6BCA50CB12}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF2743DF-F605-4931-9CDA-8EF2C357A44F}

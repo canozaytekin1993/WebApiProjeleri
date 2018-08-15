@@ -50,9 +50,9 @@ namespace WebApiEğitimi.Routing.Controllers
             Employees.Add(emp);
 
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created);
-            //response.Headers.Location = new Uri("/api/employee/" + emp.Id.ToString());  
+            //response.Headers.Location = new Uri("/api/employee/" + emp.Id.ToString());
             //response.Headers.Location = new Uri(Request.RequestUri + "/" + emp.Id.ToString());
-            response.Headers.Location = new Uri(Url.Link("GetById", new {id = emp.Id}));
+            response.Headers.Location = new Uri(Url.Link("GetById", new { id = emp.Id }));
 
             return response;
         }
